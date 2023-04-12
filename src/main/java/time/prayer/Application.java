@@ -6,12 +6,8 @@ import java.util.Scanner;
 
 public class Application {
 
-	public static void main(String[] args) throws Exception{
-		//PGraph pgr = new PGraph();
-		Scanner scanner = new Scanner(new File("config.txt"));
-		String pgraphClassName = scanner.next();
-		Class pGraph = Class.forName(pgraphClassName);
-		IGraph ipg = (IGraph) pGraph.getDeclaredConstructor().newInstance();
+	public static void main(String[] args){
+		
 		System.out.println("Hello");
 	}
 
