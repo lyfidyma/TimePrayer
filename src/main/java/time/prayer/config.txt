@@ -1,3 +1,0 @@
-time.prayer.PGraph
-time.prayer.Timeclass
-time.prayer.Horaire
