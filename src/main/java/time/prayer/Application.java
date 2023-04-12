@@ -12,7 +12,7 @@ public class Application {
 		String pgraphClassName = scanner.next();
 		Class pGraph = Class.forName(pgraphClassName);
 		IGraph ipg = (IGraph) pGraph.getDeclaredConstructor().newInstance();
-
+		System.out.println("Hello");
 	}
 
 }
